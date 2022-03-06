@@ -132,7 +132,7 @@ public abstract class User {
      * gets top two endorsed posts (by number of endorsements)
      *
      * @param p the post the user want to endorse
-     * @return whether the action is successful or not
+     * @return top two posts
      */
     public Post[] getTopTwoEndorsedPosts(PiazzaExchange pe){
         return null;
