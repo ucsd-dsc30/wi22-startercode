@@ -26,16 +26,16 @@ public class PiazzaExchangeTester {
 
         pe = new PiazzaExchange(prof, "DSC30", true);
 
-        p1 = new Question(scott, placeHolder, placeHolder, "linkedlist", "DSC30");
-        p2 = new Question(scott, placeHolder, placeHolder, "SLL", "DSC30");
-        p3 = new Question(scott, placeHolder, placeHolder, "DLL", "DSC30");
-        p4 = new Question(scott, placeHolder, placeHolder, "midterm", "DSC30");
-        p5 = new Question(scott, placeHolder, placeHolder, "BST", "DSC30");
-        p6 = new Question(scott, placeHolder, placeHolder, "tree", "DSC30");
-        p7 = new Question(scott, placeHolder, placeHolder, "heap", "DSC30");
-        p8 = new Question(scott, placeHolder, placeHolder, "queue", "DSC30");
-        p9 = new Question(scott, placeHolder, placeHolder, "PQueue", "DSC30");
-        p10 = new Question(scott, placeHolder, placeHolder, "hash table", "DSC30");
+        p1 = new Question(scott, placeHolder, placeHolder, "linkedlist", "DSC30", "P1");
+        p2 = new Question(scott, placeHolder, placeHolder, "SLL", "DSC30", "p2");
+        p3 = new Question(scott, placeHolder, placeHolder, "DLL", "DSC30", "p3");
+        p4 = new Question(scott, placeHolder, placeHolder, "midterm", "DSC30", "p4");
+        p5 = new Question(scott, placeHolder, placeHolder, "BST", "DSC30", "p5");
+        p6 = new Question(scott, placeHolder, placeHolder, "tree", "DSC30", "p6");
+        p7 = new Question(scott, placeHolder, placeHolder, "heap", "DSC30", "p7");
+        p8 = new Question(scott, placeHolder, placeHolder, "queue", "DSC30", "p8");
+        p9 = new Question(scott, placeHolder, placeHolder, "PQueue", "DSC30", "p9");
+        p10 = new Question(scott, placeHolder, placeHolder, "hash table", "DSC30", "p10");
 
         // activate the pe!
         pe.activatePiazza(prof);
