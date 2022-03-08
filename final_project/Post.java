@@ -52,6 +52,15 @@ public abstract class Post implements Comparable<Post> {
         return null;
     }
 
+    /**
+     * Set the date of the post to the provided new date
+     * 
+     * @param newDate the new date we are setting the post to
+     */
+    public void setDate(LocalDate newDate) {
+        // TODO
+    }
+
     public User getPoster() {
         // TODO
         return null;
