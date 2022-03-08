@@ -130,6 +130,17 @@ public class Forest {
     }
 
     /**
+     * Helper method. Returns the node with the given key. 
+     * If the key doesn’t exist in the forest, return null.
+     * 
+     * @param key querying the internal node with this specific key
+     */
+    public InternalNode nodeLookUp(String key) {
+        // TODO
+        return null;
+    }
+
+    /**
      * Get the posts that relate to a specific key. If the key does
      * not exist in the forest, throw IllegalArgumentException
      *
