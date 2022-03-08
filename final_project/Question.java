@@ -38,7 +38,7 @@ public class Question extends Post {
      *
      * @return the status of the question
      */
-    private String getStatus(){
+    public String getStatus(){
         // TODO
         return null;
     }

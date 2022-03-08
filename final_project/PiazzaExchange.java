@@ -59,7 +59,7 @@ public class PiazzaExchange {
     
     /* helper method for getTopStudentContributions() */
 
-    private int getStudentContributions(User u) {
+    public int getStudentContributions(User u) {
         return u.numOfPostSubmitted + u.numOfPostsAnswered + u.numOfEndorsement;
     }
 
