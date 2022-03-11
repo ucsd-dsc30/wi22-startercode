@@ -18,17 +18,17 @@ public class ForestTester {
         larry = new Student("A1000", "Larry");
         forest = new Forest();
         p1 = new Question(prof, "Tomorrow's Midterm", "Do you like online midterm?",
-                "midterm", "DSC30");
+                "midterm", "DSC30", "ph");
         p2 = new Question(larry, "BST in Midterm?", "Will we have BST related question" +
                 " in the midterm?",
-                "BST", "DSC30");
-        p3 = new Note(prof, "heap vs BST?");
+                "BST", "DSC30", "ph");
+        p3 = new Note(prof, "heap vs BST?", "ph");
         placeHolder = "Sanlospios pioseaspios";
     }
 
     @Test
     public void Test() {
-        forest.insert(p1.getKeyword(), p1);
+        forest.insert(p1.getKeyword());
         forest.insert(p2);
 
         forest.addConnection("midterm", "BST");
